@@ -377,7 +377,7 @@ int main() {
     printf("\nString after removing duplicate words:\n");
     for (i = 0; i < row; i++) {
         if (words[i][0] != '\0') {
-            printf("%s ", words[i]);
+            printf("%s ", words[i]); 
         }
     }
 
